@@ -1,4 +1,4 @@
-phpnotlarikrst
+Ön Bilgi
 ==============
 
 PHP Notları

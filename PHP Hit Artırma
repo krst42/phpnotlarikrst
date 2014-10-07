@@ -1,0 +1,10 @@
+    /* PHP 'de  Hit Artırma Olayı  */
+    /* PHP Okunma Sayısı (Hit) Artırma Mantığı */
+    <?php
+     
+    $id = $_GET["id"];
+     
+    $hitartir = mysql_query ("UPDATE tablo SET tablodakisatır= tablodakisatır + 1 where id='$id' ");
+     
+    ?>
+    /* EDİT : Kürşad AYDIN */
